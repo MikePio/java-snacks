@@ -12,8 +12,7 @@ public class Snack1 {
 		
 		Scanner sc = new Scanner(System.in) ;
 		System.out.print ("Verifica se è un numero pari o dispari: ");
-		int num = sc.nextInt();
-		
+		int num = sc.nextInt();		
 		sc.close();
 		
 		// soluzione 1
