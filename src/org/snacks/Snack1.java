@@ -16,11 +16,17 @@ public class Snack1 {
 		
 		sc.close();
 		
-		if (num % 2 == 0) {
-			System.out.println("Il numero è pari");
-		} else {
-			System.out.println("Il numero è dispari");
-		}		
+		// soluzione 1
+//		if (num % 2 == 0) {
+//			System.out.println("Il numero è pari");
+//		} else {
+//			System.out.println("Il numero è dispari");
+//		}		
+		
+		// soluzione 2 MIGLIORE con l'operatore ternario
+		String messaggio = (num % 2 == 0) ? "Il numero è pari" : "Il numero è dispari";
+		System.out.println(messaggio);
+
 
 	}
 }
