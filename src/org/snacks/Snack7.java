@@ -17,7 +17,7 @@ public class Snack7 {
 		sc.close();
 		
 		// SOLUZIONE 1
-		
+
 		// int hour = 0;
 		// int min = 0;
 		// int sec = 0;
@@ -42,7 +42,7 @@ public class Snack7 {
 		// 	} 
 		// }
 
-		// System.out.println("\nSecondi -> " + hour + ":" + min + ":" + sec);
+		// System.out.println("\nSecondi -> " + String.format("%02d:%02d:%02d", hour, min, sec));
 		
 		//-----------------------------------------------------------------
 
@@ -55,7 +55,7 @@ public class Snack7 {
 		int min = secondiRimanenti / 60;  
 		int sec = secondiRimanenti % 60;
 
-		System.out.println(String.format("%02d:%02d:%02d", hour, min, sec));
+		System.out.println("\nSecondi -> " + String.format("%02d:%02d:%02d", hour, min, sec));
 
 	}
 }
