@@ -48,9 +48,10 @@ public class Snack7 {
 
 		// SOLUZIONE 2  MIGLIORE
 
+		// 60 * 60 = 3600
 		// 1 ora = 3600 secondi
 		int hour = seconds / 3600;  
-		int secondiRimanenti = seconds % 3600;
+		int secondiRimanenti = seconds % 3600; 
 		// 1 minuto = 60 secondi
 		int min = secondiRimanenti / 60;  
 		int sec = secondiRimanenti % 60;

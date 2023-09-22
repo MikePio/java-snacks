@@ -41,7 +41,7 @@ Creare un array di 10 interi randomici compresi tra 100 e 150. Stampare tutti i 
 ### `Snack 9`
 Chiedere all'utente numeri interi e calcolarne la somma. Continuare a chiedere numeri, finche' la sommatoria non supera il valore `1000`
 
-### `Snack 1`0
+### `Snack 10`
 Creare un array di 10 elementi randomici compresi tra 100 e 1000 e stampare:
 - tutti gli elementi pari
 - tutti gli elementi dispari
